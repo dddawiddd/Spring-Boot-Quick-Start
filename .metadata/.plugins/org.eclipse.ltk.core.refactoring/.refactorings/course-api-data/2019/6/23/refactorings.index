@@ -1,0 +1,13 @@
+1559666698573	Copy package
+1559666783627	Rename type 'Topic'
+1559666814162	Rename type 'TopicController'
+1559666828520	Rename type 'TopicRepository'
+1559666840183	Rename type 'TopicService'
+1559668638642	Rename field 'topicRepository'
+1559668707337	Rename local variable 'topics'
+1559669121426	Rename field 'topicService'
+1559752832976	Rename local variable 'topic'
+1559753768780	Encapsulate field 'topic'
+1559772046095	Rename field 'couseService'
+1559772349693	Rename field 'Id'
+1559772395991	Rename field 'Id'
