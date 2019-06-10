@@ -1,6 +1,6 @@
 package io.javabrains.springbootstarter.topic;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController  //spring create instance of this class
+//@AllArgsConstructor
 public class TopicController {
 	
 	@Autowired  //declare dependancy, dependency injection
@@ -42,20 +43,11 @@ public class TopicController {
 	public void deleteTopic(@PathVariable String id) {
 		 topicService.deleteTopic(id);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 /*	@RequestMapping("/topics/{foo}")  //token inside {}
 	public Topic getTopic(@PathVariable("foo") String id) {
 		 return topicService.getTopic(id);
 	}
 	*/
-	
 	
 }
