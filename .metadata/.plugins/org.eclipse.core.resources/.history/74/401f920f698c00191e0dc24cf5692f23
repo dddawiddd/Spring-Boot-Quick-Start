@@ -17,7 +17,7 @@ public class TopicController {
 	@Autowired  //declare dependancy, dependency injection
 	private TopicService topicService;
 	
-
+	
 	@RequestMapping("/topics")  //it is GET in default
 	public List<Topic> getAllTopics() {	
 		return topicService.getAllToics();
@@ -30,6 +30,7 @@ public class TopicController {
 	
 	@RequestMapping(method=RequestMethod.POST, value="/topics")
 	public void addTopic(@RequestBody Topic topic) {
+		
 		topicService.addTopic(topic);
 	}
 	
