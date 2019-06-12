@@ -17,6 +17,9 @@ HELP.md
 *.iml
 *.ipr
 
+*.log
+*.cmd
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -27,3 +30,9 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+
+
+.metadata
+.seting
+target

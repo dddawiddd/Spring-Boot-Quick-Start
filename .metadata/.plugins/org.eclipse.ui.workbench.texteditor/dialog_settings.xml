@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="erro"/>
+		<item key="selection" value="jpa"/>
 		<list key="findhistory">
+			<item value="wpa"/>
+			<item value="jpa"/>
 			<item value="erro"/>
 			<item value="jar"/>
 			<item value="err"/>
